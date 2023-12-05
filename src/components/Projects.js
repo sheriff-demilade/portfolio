@@ -64,8 +64,8 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    These are the projects I have built and contributed using
-                    React Js.
+                    These are the projects I have built and contributed too,
+                    using React Js.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
