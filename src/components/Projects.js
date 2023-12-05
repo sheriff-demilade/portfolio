@@ -26,7 +26,7 @@ export const Projects = () => {
     },
     {
       title: "Manga website",
-      description: "A Comic website",
+      description: "An Open-source project courtesy of Daniel Asakpa",
       imgUrl: manga,
       link: "https://manga-website-ashen.vercel.app/",
     },
@@ -64,8 +64,8 @@ export const Projects = () => {
                 >
                   <h2>Projects</h2>
                   <p>
-                    These are the projects I have built and contributed too,
-                    using React Js.
+                    These are the projects I have built and contributed using
+                    React Js.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
