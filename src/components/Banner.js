@@ -79,11 +79,11 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I convert designs in figma or wire-frame to reusable react
-                    components following react best practices. Optimize
-                    components for maximum performance across a vast array of
-                    web-capable devices and browsers. Collaborate with other
-                    team members and stakeholders.
+                    An Experienced Front End Developer specializing in
+                    React.js/Redux with Proven track record of building and
+                    optimizing web applications for maximum performance across a
+                    vast array of web-capable devices and browsers. Proven
+                    ability to integrate seamlessly into diverse teams.
                   </p>
                   <button onClick={() => console.log("connect")}>
                     Let’s Connect <ArrowRightCircle size={25} />

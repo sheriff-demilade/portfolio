@@ -47,15 +47,15 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Image" />
-                  <h5>JavaScript</h5>
+                  <h5>Redux</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>CSS 3</h5>
+                  <h5>TypeScript</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>HTML 5</h5>
+                  <h5>Tailwind CSS</h5>
                 </div>
               </Carousel>
             </div>

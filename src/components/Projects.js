@@ -6,17 +6,25 @@ import TrackVisibility from "react-on-screen";
 import nexcent from "../assets/img/nexcent.png";
 import portfolio from "../assets/img/portfolio.png";
 import manga from "../assets/img/manga.png";
+import shopper from "../assets/img/shopper.png";
 import realEstate from "../assets/img/real-estate.png";
 import expenseTracker from "../assets/img/expense-tracker.png";
 import todoList from "../assets/img/todo-list.png";
 
 export const Projects = () => {
   const projects = [
+    
     {
-      title: "Nexcent",
-      description: "Business Landing page",
-      imgUrl: nexcent,
-      link: "https://nexcent-eta.vercel.app/",
+      title: "Shopper",
+      description: "An E-Commerce website",
+      imgUrl: shopper,
+      link: "https://ecommerce-psi-lac.vercel.app/mens",
+    },
+    {
+      title: "Manga website",
+      description: "An Open-source project courtesy of Daniel Asakpa",
+      imgUrl: manga,
+      link: "https://manga-website-ashen.vercel.app/",
     },
     {
       title: "My Portfolio",
@@ -25,10 +33,10 @@ export const Projects = () => {
       link: "https://portfolio-sheriffs-projects.vercel.app/",
     },
     {
-      title: "Manga website",
-      description: "An Open-source project courtesy of Daniel Asakpa",
-      imgUrl: manga,
-      link: "https://manga-website-ashen.vercel.app/",
+      title: "Nexcent",
+      description: "Business Landing page",
+      imgUrl: nexcent,
+      link: "https://nexcent-eta.vercel.app/",
     },
     {
       title: "Real Estate",
