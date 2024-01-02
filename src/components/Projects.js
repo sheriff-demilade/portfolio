@@ -3,57 +3,55 @@ import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import nexcent from "../assets/img/nexcent.png";
-import portfolio from "../assets/img/portfolio.png";
-import manga from "../assets/img/manga.png";
-import shopper from "../assets/img/shopper.png";
-import realEstate from "../assets/img/real-estate.png";
-import expenseTracker from "../assets/img/expense-tracker.png";
-import todoList from "../assets/img/todo-list.png";
+import evergreen from "../assets/projects/evergreen.png";
+import shopper from "../assets/projects/shopper.png";
+import yuki from "../assets/projects/yuki.png";
+import portfolio from "../assets/projects/portfolio.png";
+import expenseTracker from "../assets/projects/expense-tracker.png";
+import taskApp from "../assets/projects/task-app.png";
 
 export const Projects = () => {
   const projects = [
-    
+    {
+      title: "Evergreen",
+      description: "A Landscape Gardening website",
+      imgUrl: evergreen,
+      githubLink: "https://github.com/sheriff-demilade/evergreen",
+      link: "https://evergreenproject.vercel.app/",
+    },
     {
       title: "Shopper",
       description: "An E-Commerce website",
       imgUrl: shopper,
+      githubLink: "https://github.com/sheriff-demilade/ecommerce",
       link: "https://ecommerce-psi-lac.vercel.app/mens",
     },
     {
-      title: "Manga website",
-      description: "An Open-source project courtesy of Daniel Asakpa",
-      imgUrl: manga,
+      title: "Yuki Magazine",
+      description: "An Open-source Ebook website",
+      imgUrl: yuki,
+      githubLink: "https://github.com/sheriff-demilade/Manga_Website",
       link: "https://manga-website-ashen.vercel.app/",
     },
     {
       title: "My Portfolio",
       description: "This shocase my projects",
       imgUrl: portfolio,
+      githubLink: "https://github.com/sheriff-demilade/portfolio",
       link: "https://portfolio-sheriffs-projects.vercel.app/",
-    },
-    {
-      title: "Nexcent",
-      description: "Business Landing page",
-      imgUrl: nexcent,
-      link: "https://nexcent-eta.vercel.app/",
-    },
-    {
-      title: "Real Estate",
-      description: "Business Page",
-      imgUrl: realEstate,
-      link: "https://real-estate-plum-ten.vercel.app/",
     },
     {
       title: "Expense Tracker",
       description: "Personal finance app",
       imgUrl: expenseTracker,
+      githubLink: "https://github.com/sheriff-demilade/expense-tracker",
       link: "https://expense-tracker-beta-seven.vercel.app/",
     },
     {
-      title: "Todo List",
+      title: "Tasks App",
       description: "An utility app",
-      imgUrl: todoList,
+      imgUrl: taskApp,
+      githubLink: "https://github.com/sheriff-demilade/todo-list-app",
       link: "https://todo-list-app-six-pi.vercel.app/",
     },
   ];
@@ -105,22 +103,10 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="section">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
+                        <p></p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
+                        <p></p>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
